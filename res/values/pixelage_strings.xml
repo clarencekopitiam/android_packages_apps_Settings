@@ -96,4 +96,8 @@
     <string name="pixelage_version">Project Pixelage version</string>
     <string name="build_maintainer">Maintainer</string>
     <string name="build_maintainer_summary" translatable="false">clarencelol</string>
+
+    <!-- Notifications/Less boring heads up -->
+    <string name="notifications_less_boring_heads_up_title">Less boring Heads-up</string>
+    <string name="notifications_less_boring_heads_up_summary">Display popup notifications only for alarm, dialer and messaging app</string>
 </resources>
