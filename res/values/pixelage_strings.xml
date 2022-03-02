@@ -100,4 +100,8 @@
     <!-- Notifications/Less boring heads up -->
     <string name="notifications_less_boring_heads_up_title">Less boring Heads-up</string>
     <string name="notifications_less_boring_heads_up_summary">Display popup notifications only for alarm, dialer and messaging app</string>
+
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
 </resources>
