@@ -131,6 +131,7 @@ public class BiometricFragment extends InstrumentedFragment {
                 .setTitle(promptInfo.getTitle())
                 .setUseDefaultTitle() // use default title if title is null/empty
                 .setDeviceCredentialAllowed(true)
+                .setAllowedAuthenticators(promptInfo.getAuthenticators())
                 .setSubtitle(promptInfo.getSubtitle())
                 .setDescription(promptInfo.getDescription())
                 .setTextForDeviceCredential(
@@ -149,6 +150,8 @@ public class BiometricFragment extends InstrumentedFragment {
         } else {
             promptBuilder = promptBuilder.setAllowBackgroundAuthentication(true /* allow */);
         }
+
+        promptBuilder = promptBuilder.setAllowBackgroundAuthentication(promptInfo.isAllowBackgroundAuthentication());
 
         // Check if the default subtitle should be used if subtitle is null/empty
         if (promptInfo.isUseDefaultSubtitle()) {
