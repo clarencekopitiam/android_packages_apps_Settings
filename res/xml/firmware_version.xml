@@ -30,13 +30,21 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
-    <!-- Lineage version -->
+    <!-- Project Pixelage version -->
     <Preference
-        android:key="lineage_version"
-        android:title="@*lineageos.platform:string/lineage_version"
+        android:key="pixelage_version"
+        android:title="@string/pixelage_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.LineageVersionDetailPreferenceController"/>
+
+    <!-- Maintainer -->
+    <Preference
+        android:key="os_build_maintainer"
+        android:title="@string/build_maintainer"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.ProjectPixelageBuildMaintainerPreferenceController"/>
 
     <!-- Security patch -->
     <Preference
