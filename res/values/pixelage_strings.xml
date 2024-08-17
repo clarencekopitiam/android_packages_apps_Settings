@@ -125,4 +125,11 @@
     <!-- Game space -->
     <string name="game_space_title">Game space</string>
     <string name="game_space_summary">Enhance your gaming experience</string>
+
+    <!-- Misc Settings -->
+    <string name="misc_settings_title">Misc</string>
+
+    <!-- Google Play Integrity Spoof -->
+    <string name="pi_spoof_title">Google Play Integrity spoof</string>
+    <string name="pi_spoof_summary">Spoof your device as different model for Google Play Integrity</string>
 </resources>
